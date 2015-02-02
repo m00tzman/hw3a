@@ -53,38 +53,10 @@ body{
 	font-size: 18pt;
 }
 
-#fb{
-	height: 80px;
-	width: 80px;
-	padding-bottom: 10px;
-	padding-left: 5px;
+#logo{
+	height: 70px;
+	width: 70px;
+	padding-bottom: 15px;
+	padding-left: 10px;
 
-}
-
-#twitter{
-	height: 80px;
-	width: 80px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-}
-
-#instagram{
-	height: 80px;
-	width: 80px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-}
-
-#tumblr{
-	height: 80px;
-	width: 80px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-}
-
-#linkedin{
-	height: 80px;
-	width: 80px;
-	padding-bottom: 10px;
-	padding-left: 5px;
 }
