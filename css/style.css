@@ -5,6 +5,7 @@ html{
 body{
 	background-image: url("../images/background.jpg");
 	background-color: rgba(248, 248, 285, .3);
+	font-family: helvetica;
 	height: 100%;
 }
 
@@ -19,7 +20,6 @@ body{
 #header{
 	height: 50px;
 	background-color: rgba(248, 248, 285, .3);
-	font-family: helvetica;
 	padding-top: 10px;
 	font-size: 24pt;
 	border: solid rgb(109, 118, 125) 1px;
@@ -29,7 +29,7 @@ body{
 	float: left;
 	width: 90px;
 	min-height: 100%;
-	background-color: rgba(248, 248, 285, .3);
+	/*background-color: rgba(248, 248, 285, .3);*/
 	position: fixed;
 	z-index: 0;
 	font-size: 10pt;
