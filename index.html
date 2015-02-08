@@ -3,6 +3,24 @@
 	<head>
 	<title>WHO LIKES SOCIAL MEDIA?!</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script>
+		$(function(){
+			$("#fb").fadeIn(1000, function(){
+				$("#twitter").fadeIn(1000, function(){
+					$("#ig").fadeIn(1000, function(){
+						$("#tumblr").fadeIn(1000, function(){
+							$("#linkedin").fadeIn(1000, function(){
+								$("#github").fadeIn(1000);
+							})
+						});
+					});
+				});
+			});
+
+		});
+	</script>
 	</head>
 	<body>
 		<div id="container">
@@ -10,12 +28,12 @@
 				<center>SOCIAL MEDIA, RIGHT?!</center>
 			</div>
 			<div id="socialBar">
-				<a href="http://www.facebook.com"><img src="images/fblogo.png" id="logo"></a>
-				<a href="http://www.twitter.com"><img src="images/twitterlogo.png" id="logo"></a>
-				<a href="http://www.instagram.com"><img src="images/instagram.png" id="logo"></a>
-				<a href="http://www.tumblr.com"><img src="images/tumblr.png" id="logo"></a>
-				<a href="http://www.linkedin.com"><img src="images/linkedin.png" id="logo"></a>
-				<a href="http://www.github.com"><img src="images/github.png" id="logo"></a>
+				<a href="http://www.facebook.com"><img src="images/fblogo.png" class="logo" id="fb"></a>
+				<a href="http://www.twitter.com"><img src="images/twitterlogo.png" class="logo" id="twitter"></a>
+				<a href="http://www.instagram.com"><img src="images/instagram.png" class="logo" id="ig"></a>
+				<a href="http://www.tumblr.com"><img src="images/tumblr.png" class="logo" id="tumblr"></a>
+				<a href="http://www.linkedin.com"><img src="images/linkedin.png" class="logo" id="linkedin"></a>
+				<a href="http://www.github.com"><img src="images/github.png" class="logo" id="github"></a>
 			</div>
 			<div id="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis lorem justo, mollis facilisis eros mattis nec. Proin in dolor augue. Phasellus vel leo metus. In hac habitasse platea dictumst. Suspendisse id urna iaculis, tempor magna eu, congue turpis. In vel metus quis metus egestas sodales. Mauris id risus nec nibh imperdiet ullamcorper eget sit amet ligula. Nam volutpat tortor et egestas euismod. Nulla condimentum felis vel aliquet sagittis. Sed sed mi eu elit elementum tempor. Suspendisse potenti. Etiam vel mollis dolor. Duis eu turpis tempus turpis viverra sagittis. Maecenas laoreet orci at magna mattis, ut laoreet nulla varius. Mauris eu libero massa.</p>
